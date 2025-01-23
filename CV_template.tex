@@ -1,0 +1,351 @@
+%-------------------------
+% CV Template for Young Academics
+% Based off of: https://github.com/sb2nov/resume and https://github.com/jakegut/resume
+% License : MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------------------------------------------------
+
+\pagestyle{fancy}
+
+% clear header and footer fields
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%----------------------------------------
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+
+% Experience
+\newcommand{\resumeExpHeading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+
+% Publications
+\newcommand{\resumePubHeading}[1]{
+	\vspace{0pt}\item
+	\textbf{#1}
+	\vspace{-7pt}
+}
+
+
+% Programming Projects
+\newcommand{\resumeProgrHeading}[3]{
+	\vspace{0pt}\item
+	\textbf{#1} $|$ \textit{#2} \\
+	\vspace{-1pt}
+	\textit{\small#3} \\
+	\vspace{-5pt}
+}
+
+
+% Courses
+\newcommand{\resumeCourseHeading}[2]{
+	\vspace{2pt}\item
+	\textbf{#1} \\
+	\small{#2}
+	\vspace{-7pt}
+}
+
+
+% Refs
+\newcommand{\resumeRefHeading}[3]{
+	\vspace{2pt}\item
+	\textbf{#1} $|$ #2 \\
+	\textit{#3}
+	\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	
+	%-----------HEADING----------
+	
+	\begin{center}
+		\textbf{\Huge \scshape My Name} \\ \vspace{1pt}
+		\small +000 123 456 789 $|$ 
+		my.email@gmail.com $|$
+		linkedin.com/in/my-name $|$
+		github.com/my-profile
+	\end{center}
+
+	
+	
+	%-----------EDUCATION-----------
+	
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeExpHeading
+	{University of Somewhere}{City, Country}
+	{Master of Science in Life Sciences}{Sep. 2020 -- Dec. 2022}
+	\resumeExpHeading
+	{University of Someplace}{City, Country}
+	{Bachelor of Science in Life Sciences}{Sep. 2017 -- Jun. 2020}
+	\resumeSubHeadingListEnd
+	
+	
+	
+	%-----------EXPERIENCE-----------
+	
+	\section{Research Experience}
+	\resumeSubHeadingListStart
+	
+	\resumeExpHeading
+	{My First Job}{Feb. 2023 -- Dec. 2024}
+	{Company Name (Department)}{City, Country}
+	\resumeItemListStart
+	\resumeItem{Lorem ipsum dolor sit amet. Eos voluptate quis hic omnis omnis eos sequi maxime.}
+	\resumeItem{Ea possimus blanditiis qui officiis minus est deleniti minima eum minima veritatis qui dolor beatae.}
+	\resumeItem{Et eligendi temporibus ab nesciunt reiciendis ut quia molestiae et animi quos et quia deserunt qui dolore debitis.}
+	\resumeItem{Quo velit accusamus qui suscipit quas sit mollitia explicabo et modi officia qui rerum porro.}
+	\resumeItem{x porro soluta qui rerum neque est possimus consectetur in iste recusandae qui eveniet molestiae est autem quia.}
+	\resumeItem{Id sint voluptate sed impedit nemo ea obcaecati consequatur aut iure dolore est consequatur voluptas a atque.}
+	\resumeItem{Est harum temporibus id voluptatum ratione ea quia ducimus hic quibusdam saepe et quasi alias.}
+	\resumeItem{Sed quia veritatis aut repudiandae quod sed deleniti repellendus sed autem esse.}
+	\resumeItemListEnd	
+	
+	\resumeExpHeading
+	{Master Thesis}{Sep. 2021 -- Dec. 2022}
+	{Faculty of Something of the University of Somewhere}{City, Country}
+	\resumeItemListStart
+	\resumeItem{Lorem ipsum dolor sit amet. Est nisi obcaecati et sunt culpa sit illo eligendi ut sapiente odio.}
+	\resumeItem{Et consectetur modi sed deserunt omnis sit autem voluptatum ut omnis quia.}
+	\resumeItem{Sed expedita vitae quo nostrum reiciendis aut odio debitis et tenetur voluptate eos numquam aliquid aut galisum.}
+	\resumeItem{Ea voluptatem unde aut sint maxime et aspernatur adipisci sed voluptas reiciendis et itaque amet nam deleniti.}
+	\resumeItem{Sit quam illum aut voluptatem perferendis vel consequatur dolor.}
+	\resumeItem{Carried out the characterization of the coatings by SEM, FTIR, and contact angle.}
+	\resumeItem{Ex voluptas odit At praesentium Quis vel ipsum illum eos dolorum tempora. Et doloribus Quis id porro recusandae et vitae nemo et galisum voluptate.}
+	\resumeItemListEnd
+		
+	\resumeExpHeading
+	{Some Intership}{Sep. 2020 -- Dec. 2020}
+	{Faculty of Something of the University of Somewhere Else}{City, Country}
+	\resumeItemListStart
+	\resumeItem{Est odio praesentium qui praesentium minus aut dolorum nemo ea maiores earum non minus nihil aut ipsum rerum est harum quasi. Est nobis velit sit voluptatem nobis ab repellat aspernatur in sunt dolores.} 
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	
+	
+	%-----------PUBLICATIONS-----------
+	
+	\section{Publications}
+	\resumeSubHeadingListStart
+	\resumePubHeading{Peer-Reviewed Publications}
+	\resumeItemListStart
+	\resumeItem{\textbf{My Name}, Author 2, Author 3, Author 4, Author 5, Author 6, Author 7, Author 8, Author 9, Author 10. Ut placeat soluta qui galisum velit et magni rerum qui praesentium cupiditate. Sit possimus magnam aut galisum. Journal Name. 2023.}
+	\resumeItem{Author 1, \textbf{My Name}, Author 3, Author 4, Author 5. Sed voluptatem quia rem similique nulla hic quia inventore aut culpa dicta! Ad soluta maxime ab nihil quae sed ratione voluptas. Journal Name. 2023.}
+	\resumeItemListEnd
+	
+	\resumePubHeading {Oral Communications in Scientific Conferences}
+	\resumeItemListStart
+	\resumeItem{Author 1, \textbf{My Name}, Author 3, Author 4, Author 5. Sit tenetur voluptate qui quis impedit et voluptas asperiores et omnis voluptatem sed modi. International Conference on Something. Online conference, Some institute for Something, Month day1-day2 2022}
+	\resumeItem{\textbf{My Name}, Author 2, Author 3. Est animi quas ad magni alias ut dolorum culpa et voluptate debitis ut reiciendis adipisci. Someplace Meeting, Month day1–day2 2022}
+	\resumeItemListEnd
+	
+	\resumePubHeading {Book Chapters}
+	\resumeItemListStart
+	\resumeItem{Author 1, \textbf{My Name}, Author 3, Author 4, Author 5. Eum facere blanditiis et laboriosam nobis ex iusto dolor rem consequatur velit ut tenetur commodi. Publisher (Status)}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+	
+	
+		
+	%-----------TEACHING AND MENTORSHIP-----------
+	
+	\section{Teaching and Mentorship Experience}
+	
+	\resumeSubHeadingListStart
+	
+	\resumeExpHeading
+	{Some Mentorship or Teaching Role}{Jun. 2022 – Jul. 2022}
+	{Faculty of Something of the University of Somewhere}{City, Country}
+	\resumeItemListStart
+	\resumeItem{Aut modi voluptatem eum ipsum nobis hic blanditiis galisum et aliquam nesciunt et voluptatum recusandae.}
+	\resumeItem{Nam officiis ducimus 33 itaque odio in iste facilis ut maxime provident.}
+	\resumeItem{Et dicta quasi sit molestiae repudiandae sit atque fugit qui deserunt nisi ab soluta placeat.}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd	
+	
+	
+	
+	%-----------PROJECTS-----------
+	
+	\section{Personal Programming Projects}
+	
+	\resumeSubHeadingListStart
+	
+	\resumeProgrHeading
+	{My Most Impressive Project} {Python \& Bash}
+	{somewebsite.com/my-profile/project\_name}
+	\resumeItemListStart
+	\resumeItem{Est expedita dolor eos alias quia a error neque ea quae dolore et similique impedit ut sint voluptatem.}
+	\resumeItem{Ut ratione deleniti a quod asperiores et quasi mollitia. Ea voluptatem sint cum quas minus et eligendi illum.}
+	\resumeItem{Lorem ipsum dolor sit amet. Qui minus quod aut nobis reiciendis et sint nihil aut voluptatem dolor rem.}
+	\resumeItem{In expedita quos sit fugit distinctio ea expedita dolorum hic debitis voluptatem aut nulla excepturi.}
+	\resumeItemListEnd
+	
+	\resumeProgrHeading
+	{Another Impressive Project} {R}
+	{somewebsite.com/my-profile/anotherproject\_name}
+	\resumeItemListStart
+	\resumeItem{Et nihil voluptatem quo impedit perspiciatis et quidem explicabo quo facilis eaque et soluta minus.}
+	\resumeItem{Est iusto dignissimos aut labore quae eos facilis dolorem sed tempore voluptatibus.}
+	\resumeItem{Ut vero laudantium et Quis nisi hic velit unde cum nobis alias vel recusandae quidem.}
+	\resumeItem{Ut galisum iure rem assumenda repudiandae cum maiores aperiam qui voluptatem iste et facere.}
+	\resumeItemListEnd
+	
+	\resumeProgrHeading
+	{One More Impressive Project} {Python}
+	{somewebsite.com/my-profile/onemoreproject\_name}
+	\resumeItemListStart
+	\resumeItem{In voluptates mollitia ut voluptate voluptatibus non animi dolor non ipsa quam eos consequatur quaerat.}
+	\resumeItem{Et nobis delectus eos commodi quidem et aliquid blanditiis. Eum illo error quo provident.}
+	\resumeItem{It beatae recusandae qui autem exercitationem id repellendus dolor est sunt molestias aut voluptatem.}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	
+	
+	%-----------TECHNICAL SKILLS-----------
+	
+	\section{Technical Skills}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+				\textbf{Languages}{: ProgLanguage1, ProgLanguage2, ProgLanguage3} \\
+				\textbf{Libraries and Packages}{: Library1, Library2, Library3, Library4, Library5, Package1, Package2, Package3, Package4} \\
+				\textbf{Developer Tools}{: Tool1, Tool2, Tool3, Tool4, Tool5} \\
+				\textbf{Other Software}{: Software1, Software2, Software3, Software4}
+		}}
+	\end{itemize}
+	
+	
+	
+	%--------------COURSES AND CERTIFICATIONS-----------
+	
+	\section{Courses and Certifications}
+	\resumeSubHeadingListStart
+	
+	\resumeCourseHeading
+	{Elvish Languages Course}
+	{99 hours, Website}
+	
+	\resumeCourseHeading
+	{Programming Course}
+	{99 hours, Institution}
+	
+	\resumeCourseHeading
+	{First Aid Course}
+	{99 hours, Website}
+	
+	\resumeCourseHeading
+	{Public Speaking Course}
+	{99 hours, Institution}
+	
+	\resumeCourseHeading
+	{Another Programming Course}
+	{99 hours, Company}
+	
+	\resumeSubHeadingListEnd
+	
+	
+	
+	%-----------LANGUAGES-----------
+	
+	\section{Languages}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+				\textbf{Elvish Languages}{: Fluent} \\
+				\textbf{Klingon}{: Advanced} \\
+				\textbf{Dothraki}{: Basic}
+		}}
+	\end{itemize}
+	
+	
+	
+	%--------------CONTACT REFERENCES-----------
+	
+	\section{Contact References}
+	\resumeSubHeadingListStart
+	
+	\resumeRefHeading
+	{Professor Name}
+	{Full Professor at the Faculty of Something of the University of Somewhere}
+	{profname@uni.com}
+	
+	\resumeRefHeading
+	{Professor Name}
+	{Associate Professor at the Faculty of Something of the University of Somewhere}
+	{profname@uni.com}
+	
+	\resumeSubHeadingListEnd
+	
+	%---------------------------------------------
+	
+\end{document}
